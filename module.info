@@ -1,0 +1,5 @@
+Module: authentik
+Version: 0.1.0
+Description: Authentik SSO Login
+ Provides a login button for SSO authentication via an Authentik identity provider.
+ Uses OpenID Connect (OIDC) with PKCE for secure authentication.
