@@ -1,4 +1,5 @@
 <?php
+
 /* Icinga Web 2 Authentik Module | GPLv2+ */
 
 namespace Icinga\Module\Authentik\Forms;
