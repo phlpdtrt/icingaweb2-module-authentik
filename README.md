@@ -16,15 +16,9 @@ Authentication uses the **OpenID Connect (OIDC) Authorization Code flow with PKC
 
 | Requirement | Version |
 |---|---|
-| Icinga Web 2 | `main` branch (see note below) |
+| Icinga Web 2 | ≥ 2.13.0 |
 | PHP | ≥ 8.2 |
 | PHP extension | `curl` |
-
-> **Note:** This module depends on `LoginButtonHook` and `LoginButton`
-> ([PR #5442](https://github.com/Icinga/icingaweb2/pull/5442)), which were merged into the
-> Icinga Web 2 `main` branch on 2026-03-04 and are **not yet part of any released version**
-> (last release: v2.12.6, November 2025). Until a new release ships these classes, you need to
-> run Icinga Web 2 from the `main` branch.
 
 ## Installation
 
